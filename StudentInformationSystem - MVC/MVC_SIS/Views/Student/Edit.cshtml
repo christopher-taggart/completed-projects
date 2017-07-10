@@ -1,0 +1,119 @@
+﻿@using System.Web.UI.WebControls
+@model Exercises.Models.ViewModels.StudentVM
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Edit</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-4">
+            <h1>Edit Student</h1>
+            @Html.ValidationSummary()
+            @using (Html.BeginForm("Edit", "Student", FormMethod.Post))
+            {
+
+
+                @Html.HiddenFor(m => m.Student.StudentId)
+                <div class="form-group">
+                    <label>First Name</label>
+                    @Html.TextBoxFor(m => m.Student.FirstName, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>Last Name</label>
+                    @Html.TextBoxFor(m => m.Student.LastName, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group">
+                    <label>Major</label>
+                    @Html.DropDownListFor(m => m.Student.Major.MajorId, Model.MajorItems, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>GPA</label>
+                    @Html.TextBoxFor(m => m.Student.GPA, new { @class = "form-control" })
+                </div>
+                <div class="form-group">
+                    <label>Courses</label> 
+                   
+                  
+                       
+                    
+                   
+                    @for (int i = 0; i < Model.CourseItems.Count; i++)
+                    {
+                         
+                        <p>
+                           
+                               @Html.CheckBoxFor(m => m.CourseItems[i].Selected)
+
+
+                               <span>@Model.CourseItems[i].Text</span>
+
+                               @Html.HiddenFor(m => m.CourseItems[i].Value)
+                           
+                                          
+                                </p>
+                                
+                            
+                    }
+                </div>
+
+
+
+                @Html.ActionLink("Cancel", "List", "Student", null, new { @class = "btn btn-default" })
+                <button class="btn btn-primary">Save</button>
+                
+            }
+</div>
+            <div class="col-xl-6">
+                <h1>Edit Address</h1>
+                
+                @using (Html.BeginForm("EditAddress", "Student", FormMethod.Post))
+            {
+                    @Html.HiddenFor(m => m.Student.StudentId)
+                <div class="form-group">
+                    <label>City</label>
+                    @Html.TextBoxFor(m => m.Student.Address.City, new { @class = "form-control", placeholder = "Enter City" })
+                </div>
+                <div class="form-group">
+                    <label>State</label>
+                    @Html.DropDownListFor(m => m.Student.Address.State.StateAbbreviation, Model.StateItems,"-Select State-", new { @class = "form-control" })
+                </div>
+                 
+                <div class="form-group">
+                    <label>Street 1</label>
+                    @Html.TextBoxFor(m => m.Student.Address.Street1, new { @class = "form-control", placeholder = "Enter Street 1" })
+                </div>
+                <div class="form-group">
+                    <label>Street 2</label>
+                    @Html.TextBoxFor(m => m.Student.Address.Street2, new { @class = "form-control", placeholder = "Enter Street 2" })
+                </div>
+                <div class="form-group">
+                    <label>Postal Code</label>
+                    @Html.TextBoxFor(m => m.Student.Address.PostalCode, new { @class = "form-control", placeholder = "Enter Postal Code"})
+                </div>
+                
+                    @Html.ActionLink("Cancel", "List", "Student", null, new { @class = "btn btn-default" })
+                    <button class="btn btn-primary">Save</button>
+                }
+            </div>
+
+        
+
+    </div>
+</div>
+<script src="~/Scripts/jquery-1.9.1.min.js"></script>
+<script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

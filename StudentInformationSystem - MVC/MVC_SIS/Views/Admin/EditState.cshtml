@@ -1,0 +1,26 @@
+﻿@model Exercises.Models.Data.State
+
+@{
+    ViewBag.Title = "EditState";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h3>Edit Major</h3>
+        @Html.ActionLink("Return to List", "Majors", "Admin")
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        @Html.ValidationSummary()
+        @using (Html.BeginForm())
+        {
+            @Html.HiddenFor(m => m.StateAbbreviation)
+            <div class="form-group">
+                <label>State</label>
+                @Html.TextBoxFor(m => m.StateName, new {@class = "form-control", placeholder = "State Name"})
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary">Save</button>
+        }
+    </div>
+</div>  

@@ -1,0 +1,3 @@
+OrderNumber, CustomerName, State, TaxRate, ProductType, Area, CostPerSquareFoot, LaborCostPerSquareFoot, MaterialCost, LaborCost, Tax, Total
+1|First Order|OH|6.25|Tile|100|3.50|4.15|350.00|415.00|22.134375|787.134375
+2|Second Order|PA|6.75|Wood|200|5.15|4.75|1030.00|950.00|69.845625|2049.845625

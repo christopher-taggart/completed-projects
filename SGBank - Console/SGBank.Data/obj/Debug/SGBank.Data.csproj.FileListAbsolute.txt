@@ -1,0 +1,14 @@
+C:\Users\Chris\Documents\SGBank\SGBank.Data\bin\Debug\SGBank.Data.dll
+C:\Users\Chris\Documents\SGBank\SGBank.Data\bin\Debug\SGBank.Data.pdb
+C:\Users\Chris\Documents\SGBank\SGBank.Data\bin\Debug\SGBank.Models.dll
+C:\Users\Chris\Documents\SGBank\SGBank.Data\bin\Debug\SGBank.Models.pdb
+C:\Users\Chris\Documents\SGBank\SGBank.Data\obj\Debug\SGBank.Data.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Documents\SGBank\SGBank.Data\obj\Debug\SGBank.Data.dll
+C:\Users\Chris\Documents\SGBank\SGBank.Data\obj\Debug\SGBank.Data.pdb
+C:\Users\Chris\Documents\chris.taggart.self.work\Labs\SGBank\SGBank.Data\bin\Debug\SGBank.Data.dll
+C:\Users\Chris\Documents\chris.taggart.self.work\Labs\SGBank\SGBank.Data\bin\Debug\SGBank.Data.pdb
+C:\Users\Chris\Documents\chris.taggart.self.work\Labs\SGBank\SGBank.Data\bin\Debug\SGBank.Models.dll
+C:\Users\Chris\Documents\chris.taggart.self.work\Labs\SGBank\SGBank.Data\bin\Debug\SGBank.Models.pdb
+C:\Users\Chris\Documents\chris.taggart.self.work\Labs\SGBank\SGBank.Data\obj\Debug\SGBank.Data.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Documents\chris.taggart.self.work\Labs\SGBank\SGBank.Data\obj\Debug\SGBank.Data.dll
+C:\Users\Chris\Documents\chris.taggart.self.work\Labs\SGBank\SGBank.Data\obj\Debug\SGBank.Data.pdb

@@ -1,0 +1,20 @@
+c:\users\chris\documents\visual studio 2017\Projects\FlooringMastery\FlooringMastery.Models\bin\Debug\FlooringMastery.Models.dll
+c:\users\chris\documents\visual studio 2017\Projects\FlooringMastery\FlooringMastery.Models\bin\Debug\FlooringMastery.Models.pdb
+c:\users\chris\documents\visual studio 2017\Projects\FlooringMastery\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.csprojResolveAssemblyReference.cache
+c:\users\chris\documents\visual studio 2017\Projects\FlooringMastery\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.dll
+c:\users\chris\documents\visual studio 2017\Projects\FlooringMastery\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.pdb
+C:\Users\Chris\Desktop\FlooringMastery\FlooringMastery.Models\bin\Debug\FlooringMastery.Models.dll
+C:\Users\Chris\Desktop\FlooringMastery\FlooringMastery.Models\bin\Debug\FlooringMastery.Models.pdb
+C:\Users\Chris\Desktop\FlooringMastery\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Desktop\FlooringMastery\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.dll
+C:\Users\Chris\Desktop\FlooringMastery\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.pdb
+C:\Users\Chris\Desktop\FlooringMastery - Copy (2)\FlooringMastery.Models\bin\Debug\FlooringMastery.Models.dll
+C:\Users\Chris\Desktop\FlooringMastery - Copy (2)\FlooringMastery.Models\bin\Debug\FlooringMastery.Models.pdb
+C:\Users\Chris\Desktop\FlooringMastery - Copy (2)\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Desktop\FlooringMastery - Copy (2)\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.dll
+C:\Users\Chris\Desktop\FlooringMastery - Copy (2)\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.pdb
+C:\Users\Chris\Documents\chris.taggart.self.work\Labs\FlooringMasteryComplete\FlooringMastery.Models\bin\Debug\FlooringMastery.Models.dll
+C:\Users\Chris\Documents\chris.taggart.self.work\Labs\FlooringMasteryComplete\FlooringMastery.Models\bin\Debug\FlooringMastery.Models.pdb
+C:\Users\Chris\Documents\chris.taggart.self.work\Labs\FlooringMasteryComplete\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.csprojResolveAssemblyReference.cache
+C:\Users\Chris\Documents\chris.taggart.self.work\Labs\FlooringMasteryComplete\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.dll
+C:\Users\Chris\Documents\chris.taggart.self.work\Labs\FlooringMasteryComplete\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.pdb
